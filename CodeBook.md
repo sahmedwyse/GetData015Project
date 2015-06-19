@@ -177,14 +177,14 @@
         The final tidy2 is saved in proj2.txt (in working directory).
         It has column names, and no row names. Sample appears as:
  
------------------------------------------------------------------------------------------------------------------------------
-       Activities Subjects tBodyAcc-mean()-X tBodyAcc-mean()-Y    ...   fBodyBodyGyroJerkMag-mean() fBodyBodyGyroJerkMag-std()
-           LAYING        1         0.2215982       -0.04051395    ...                    -0.9423669                 -0.9326607
-           LAYING        2         0.2813734       -0.01815874    ...                    -0.9902487                 -0.9894927
-              ...      ...               ...               ...    ...                           ...                        ...
- WALKING_UPSTAIRS       29         0.2654231       -0.02994653    ...                    -0.6974546                 -0.7564642
- WALKING_UPSTAIRS       30         0.2714156       -0.02533117    ...                    -0.7739745                 -0.7913494
------------------------------------------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------------------------------
+           Activities Subjects tBodyAcc-mean()-X tBodyAcc-mean()-Y    ...   fBodyBodyGyroJerkMag-mean() fBodyBodyGyroJerkMag-std()
+               LAYING        1         0.2215982       -0.04051395    ...                    -0.9423669                 -0.9326607
+               LAYING        2         0.2813734       -0.01815874    ...                    -0.9902487                 -0.9894927
+                  ...      ...               ...               ...    ...                           ...                        ...
+     WALKING_UPSTAIRS       29         0.2654231       -0.02994653    ...                    -0.6974546                 -0.7564642
+     WALKING_UPSTAIRS       30         0.2714156       -0.02533117    ...                    -0.7739745                 -0.7913494
+    ------------------------------------------------------------------------------------------------------------------------------
  
       Interpret first row, 3rd column as:
       Average value of "tBodyAcc-mean()-X" measurement for Subject 1, 
