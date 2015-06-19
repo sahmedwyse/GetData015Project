@@ -177,15 +177,16 @@
         The final tidy2 is saved in proj2.txt (in working directory).
         It has column names, and no row names. Sample appears as:
  
-    ------------------------------------------------------------------------------------------------------------------------------
-           Activities Subjects tBodyAcc-mean()-X tBodyAcc-mean()-Y    ...   fBodyBodyGyroJerkMag-mean() fBodyBodyGyroJerkMag-std()
-               LAYING        1         0.2215982       -0.04051395    ...                    -0.9423669                 -0.9326607
-               LAYING        2         0.2813734       -0.01815874    ...                    -0.9902487                 -0.9894927
-                  ...      ...               ...               ...    ...                           ...                        ...
-     WALKING_UPSTAIRS       29         0.2654231       -0.02994653    ...                    -0.6974546                 -0.7564642
-     WALKING_UPSTAIRS       30         0.2714156       -0.02533117    ...                    -0.7739745                 -0.7913494
-    ------------------------------------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------
+           Activities Subjects tBodyAcc-mean()-X tBodyAcc-mean()-Y    ...    fBodyBodyGyroJerkMag-std()
+               LAYING        1         0.2215982       -0.04051395    ...                    -0.9326607
+               LAYING        2         0.2813734       -0.01815874    ...                    -0.9894927
+                  ...      ...               ...               ...    ...                           ...
+     WALKING_UPSTAIRS       29         0.2654231       -0.02994653    ...                    -0.7564642
+     WALKING_UPSTAIRS       30         0.2714156       -0.02533117    ...                    -0.7913494
+    ---------------------------------------------------------------------------------------------------
  
+    Step 4: Units and Interpretation
       Interpret first row, 3rd column as:
       Average value of "tBodyAcc-mean()-X" measurement for Subject 1, 
       for LAYING activity is 0.2215982.
@@ -193,3 +194,18 @@
       Interpret last row and last column as:
       Average value of "fBodyBodyGyroJerkMag-std()" measurement for subject 30, 
       for WALKING_UPSTAIRS activity is -0.7913494.
+
+      Since we took average per Subject, per Activity, the unit remained the 
+      same for each measurement.  Citing original CookBook, the description of
+      unit is as follows:
+      
+      "The features selected for this database come from the accelerometer and 
+      gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain 
+      signals (prefix 't' to denote time) were captured at a constant rate of 
+      50 Hz. Then they were filtered using a median filter and a 3rd order 
+      low pass Butterworth filter with a corner frequency of 20 Hz to 
+      remove noise. Similarly, the acceleration signal was then separated 
+      into body and gravity acceleration signals (tBodyAcc-XYZ and 
+      tGravityAcc-XYZ) using another low pass Butterworth filter with a 
+      corner frequency of 0.3 Hz."
+      
