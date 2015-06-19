@@ -4,11 +4,11 @@
                                6/18/2015
                                README.md
 -------------------------------------------------------------------------------
-This document describes:
+    This document describes:
     How to run the script, and 
     Tidy data generated as output.
 
-Step 1: Working environment:
+    Step 1: Working environment:
         R version 3.1.3 (2015-03-09)        [Default packages]
         dplyr_0.4.1                         [Additional packages]
         
@@ -33,29 +33,28 @@ Step 1: Working environment:
         features_info.txt          - file          (optional)
         README.txt                 - file          (optional)
 
-Place above file-structure in working environment.
+    Place above file-structure in working environment.
 
-Place run_analysis.R in working environment. Then execute:
+    Place run_analysis.R in working environment. Then execute:
 
-> install.packages("dplyr")  # if dplyr was never installed.
+    > install.packages("dplyr")  # if dplyr was never installed.
 
 -------------------------------------------------------------------------------
-Execute script:
+    Execute script:
 
-> source("run_analysis.R")
-> run_analysis()
+    > source("run_analysis.R")
+    > run_analysis()
 
-It will give output as:
+    It will give output as:
 
-> run_analysis()
-[1] "Part 1: MERGE TEST AND TRAIN..........."
-[1] "Part 2: EXTRACT mean and std COLUMNS..."
-[1] "Part 4: LABEL COLUMN NAMES............."
-[1] "Part 3: DESCRIPTIVE ACTIVITY NAMES....."
-[1] "Part 5: SUMMARIZE AND WRITE TO FILE...."
-[1] "All Done. Please see proj2.txt file."
+    > run_analysis()
+    [1] "Part 1: MERGE TEST AND TRAIN..........."
+    [1] "Part 2: EXTRACT mean and std COLUMNS..."
+    [1] "Part 4: LABEL COLUMN NAMES............."
+    [1] "Part 3: DESCRIPTIVE ACTIVITY NAMES....."
+    [1] "Part 5: SUMMARIZE AND WRITE TO FILE...."
+    [1] "All Done. Please see proj2.txt file."
 
-The final tidy data will be saved in proj2.txt in working directory.
+    The final tidy data will be saved in proj2.txt in working directory.
 
-Step 2:  Consult CodeBook.md for details of operation.
-
+    Step 2:  Consult CodeBook.md for details of operation.
