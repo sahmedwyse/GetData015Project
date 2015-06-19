@@ -2,7 +2,6 @@
                 Class project for Coursera Course GetData-015
                              Shafiq Ahmed
                                6/18/2015
--------------------------------------------------------------------------------
                                README.md
 -------------------------------------------------------------------------------
 This document describes:
@@ -40,6 +39,7 @@ Place run_analysis.R in working environment. Then execute:
 
 > install.packages("dplyr")  # if dplyr was never installed.
 
+-------------------------------------------------------------------------------
 Execute script:
 
 > source("run_analysis.R")
@@ -58,4 +58,4 @@ It will give output as:
 The final tidy data will be saved in proj2.txt in working directory.
 
 Step 2:  Consult CodeBook.md for details of operation.
--------------------------------------------------------------------------------
+
